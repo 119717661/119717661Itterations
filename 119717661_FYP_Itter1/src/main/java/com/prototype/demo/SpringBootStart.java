@@ -1,18 +1,13 @@
-package com.telusko.demo;
+package com.prototype.demo;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 @SpringBootApplication
-public class MyWebAppApplication {
-
-
+public class SpringBootStart {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MyWebAppApplication.class, args);
+		SpringApplication.run(SpringBootStart.class, args);
 	}
 
-	
 }
